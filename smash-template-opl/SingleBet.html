@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        var counter = 0;
+        var dai = 0;
+        function increment(){
+        if(counter>= 0){
+            counter++;
+            dai = 3*counter;
+            }
+            console.log(counter);
+            console.log(dai);
+        }
+        function decrement(){
+        if(counter>0){
+        counter--;
+        dai = 3*counter;
+        }
+        console.log(counter);
+        console.log(dai);
+        }
+
+    </script>
+    <!--====== Title ======-->
+    <title>winPool - Win by saving your money</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/winPool.jpg" type="image/png">
+
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!--====== PRELOADER PART START ======-->
+
+<div class="preloader">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--====== PRELOADER PART ENDS ======-->
+
+<!--====== NAVBAR TWO PART START ======-->
+
+<div class="container">
+
+        <div class="product__details">
+            <h1 class="product__details-heading">Bet way to win</h1>
+            <span class="product__details-sub-heading">Good Luck</span>
+
+
+            </section>
+            Home team: <div id="result"></div>
+            Away team: <div id="result2"></div>
+            <script>
+    document.getElementById("result").innerHTML = localStorage.getItem("ddvalue");
+   document.getElementById("result2").innerHTML = localStorage.getItem("ddvalue2");
+</script>
+
+
+            <div class="product__details-basket">
+                <div class="product__details-basket-item">
+                    <span class="product__details-basket-heading">Quantity</span>
+                    <div class="product__details-basket-quantity-wrapper">
+                        <select class="product__details-basket-quantity" name="quantity" id="quantity" data-product-quantity>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+
+                    </div>
+
+                </div>
+
+                <div class="product__details-basket-item">
+                    <span class="product__details-basket-heading product__details-basket-heading--right">Price</span>
+                    <span class="product__details-basket-price" data-product-price>$386.78</span>
+                </div>
+            </div>
+        </div>
+
+        <form class="card-details" action="" data-form>
+
+
+
+
+
+
+
+            <button class="" type="button" data-submit-button>Purchase</button>
+        </form>
+
+    <p>Design by <a href="https://dribbble.com/AmandaLumleyx">Amanda Lumley</a> via <a href="https://dribbble.com/shots/3237318-Daily-UI-002-Credit-Card-Checkout">Dribble</a></p>
+</div>
+<!--====== NAVBAR TWO PART ENDS ======-->
+
+<!--====== SLIDER PART START ======-->
+
+
+
+        <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+
+
+
+        <!--====== FOOTER PART ENDS ======-->
+
+        <!--====== BACK TOP TOP PART START ======-->
+
+        <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+        <!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+        <!--====== Jquery js ======-->
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+        <!--====== Bootstrap js ======-->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!--====== Slick js ======-->
+        <script src="assets/js/slick.min.js"></script>
+
+        <!--====== Magnific Popup js ======-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+        <!--====== Ajax Contact js ======-->
+        <script src="assets/js/ajax-contact.js"></script>
+
+        <!--====== Isotope js ======-->
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        <!--====== Scrolling Nav js ======-->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/scrolling-nav.js"></script>
+
+        <!--====== Main js ======-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/plusminus.js"></script>
+<script src="assets/js/SingleBet.js"></script>
+</body>
+
+</html>
